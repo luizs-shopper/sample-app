@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     sample_env_var = os.getenv('SAMPLE_ENV_VAR')
-    return 'Hello %s!' % sample_env_var
+    return 'Hello %s!!' % sample_env_var
 
 @app.route('/health-check')
 def healthcheck():
